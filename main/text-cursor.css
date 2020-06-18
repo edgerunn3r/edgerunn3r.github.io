@@ -1,22 +1,9 @@
-body {
-	text-align: left;
-	font-family: monospace;
-	background-color: black;
-	color: #C8C8C8;
-	text-shadow: 0 0 5px #C8C8C8;
-}
-
-a {
-	text-decoration: none;
-	color: #C8C8C8;
-}
-
 .hidden {
   display: none;
   visibility: hidden;
 }
 
-
+/* ----- blinking cursor animation ----- */
 .typed-cursor{
   opacity: 1;
   -webkit-animation: blink 0.95s infinite;
@@ -50,15 +37,4 @@ a {
   0% { opacity:1; }
   50% { opacity:0; }
   100% { opacity:1; }
-}
-
-.rabbit {
-	animation: appear 0s 15s forwards;
-	opacity: 0;
-	text-align: center;
-	padding-top: 10%;
-}
-
-@keyframes 	appear {
-	to { opacity: 1 ;}
 }
